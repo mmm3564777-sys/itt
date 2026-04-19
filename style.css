@@ -1,0 +1,47 @@
+body{
+background:lightgray;
+font-family:sans-serif;
+}
+
+.all-places{
+display:flex;
+flex-wrap:wrap;
+justify-content:space-around;
+}
+
+.box{
+background:white;
+border:2px solid black;
+width:450px;
+margin:10px;
+padding:10px;
+text-align:center;
+}
+
+.box img{
+width:100%;
+height:300px;
+cursor:pointer;
+}
+
+.info{
+display:none;
+font-size:20px;
+font-weight:bold;
+color:blue;
+margin-top:10px;
+}
+
+.click-me:focus .info{
+display:block;
+}
+
+.btn{
+background:green;
+color:white;
+width:200px;
+height:50px;
+font-size:20px;
+margin-top:50px;
+cursor:pointer;
+}
